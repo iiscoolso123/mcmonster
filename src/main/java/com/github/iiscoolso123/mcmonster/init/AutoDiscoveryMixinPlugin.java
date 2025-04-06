@@ -1,4 +1,4 @@
-package com.example.init;
+package com.github.iiscoolso123.mcmonster.init;
 
 import org.spongepowered.asm.lib.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
