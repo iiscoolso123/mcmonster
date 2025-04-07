@@ -14,10 +14,10 @@ import java.text.ParseException;
 
 public class MithrilPowderTracker {
     static int mithril = 0;
-    static int mithrilGained = 0;
+    public static int mithrilGained = 0;
     static int mithrilPerHour = 0;
     static int counter = 0;
-    static long startingTime = 0;
+    public static long startingTime = 0;
     static long elapsedTime;
     static float elapsedHours;
     static public int x = 10;
@@ -39,7 +39,7 @@ public class MithrilPowderTracker {
 
             GuiUtils.drawRect(x,y, x + width, y + height, 0x90000000);
 
-            fr.drawString("§2Mithril gain per hour: " + nf.format(((mithrilPerHour + 99) / 100) * 100),x + 5, y + 6, 0xFFFFFF);
+            fr.drawString("§2Mithril gain per hour:§2 §d " + nf.format(((mithrilPerHour + 99) / 100) * 100),x + 5, y + 6, 0xFFFFFF);
         }
     }
 
